@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Knjigovodstvena agencija Fortuna</title>
+  <link>https://www.moj-sajt.com</link>
+  <description>Pratite nas da budete u toku.</description>
+  <language>sr</language>
+	<item>
+		<title>Novosti</title>
+		<link></link>
+		<description>Pratite kako biste saznali promene u našoj firmi.</description>
+	</item>
+	<item>
+		<title>Nove usluge</title>
+		<link></link>
+		<description>Pratite koje šire usluge koje ćemo pružati.</description>
+	</item>
+</channel>
+</rss>

@@ -1,0 +1,697 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	word-wrap: break-word;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	/*overflow-x: hidden;*/
+}
+
+header {
+	color: #000; 
+	width: 100%;
+	height: 100px;
+    position: fixed;
+	transition: all 0.3s ease-in-out;
+    z-index: 25;
+	background-color: #17242a;
+}
+
+#header-wrapper {
+	display: flex;
+	background-color: #17242a;
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.logo {
+	display: inline;
+	margin: 20px 0px 20px 60px;
+}
+
+.logo img {
+	padding-top: 17px;
+}
+
+
+nav {
+	float: right;
+	margin: 41.2px 120px 20px 0px;
+	position: relative;
+}
+
+
+
+
+
+.meni {
+	
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	display: inline;
+	position: relative;
+}
+
+.meni ul li {
+	display: inline;
+	margin: 0px auto;
+	
+}
+
+.meni ul li a {
+	padding: 7px;
+	color: #FFF;
+	letter-spacing: 2.4px;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+
+.clean {
+	clear: both;
+}
+
+
+.intro {
+	width: 550px;
+	height: 200px;
+	margin-top: 300px;
+	margin-left: 700px;
+	z-index: 2;
+	
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.intro {
+  animation: fade-in 2.5s ease-out;
+}
+
+.image13 {
+	position: absolute;
+	z-index: 1;
+	top: 140px;
+	padding-left: 100px;
+	filter: brightness(90%);
+	
+}
+
+.image13 {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideUp 1s ease-in forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro h1{
+	font-size: 40px;
+	color: #FFF;
+	font-weight: bolder;
+	font-family: 'Montserrat', sans-serif;
+	text-shadow: 5px 4px 5px grey;
+}
+
+
+.link {
+	display: block;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #FFF;
+	border-radius: 25px;
+	background-color: #678983;
+	padding: 7px;
+	float: right;
+	margin-right: 20px;
+}
+
+
+#blok1 {
+	width: 100%;
+	height: 800px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #678983;
+}
+
+.podblok1 {
+	margin-top: 290px;
+	margin-left: 120px;
+	width: 600px;
+	box-sizing: border-box;
+	align-self: flex-start;
+	border-radius: 9px;
+	background-color: #17242a;
+	opacity: 0.5;
+	padding: 30px 28px 30px 30px;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+}
+
+/* primena animacije na element */
+#tri_bloka {
+  animation: zoom-in 1.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.podblok1 h2 {
+	font-size: 29px;
+	line-height: 1;
+	color: #7d7d7d;
+	
+}
+
+.podblok1 h3 {
+	font-size: 20px;
+	line-height: 1.3;
+	color: #FFF;
+}
+
+.podblok2 img{
+	margin-top: 130px;
+	align-self: flex-end;
+	height: 630px;
+}
+
+.podblok2 img {
+  transition: transform 0.5s ease-in-out; /* tranzicija rotiranja slike u trajanju od 0.5 sekundi, sa laganom ubrzanim ulaskom i izlaskom */
+}
+
+.podblok2 img:hover {
+  transform: rotate(45deg); /* kada se miš nalazi preko slike, slika se rotira za 45 stepeni */
+}
+
+.cleaner {
+	clear: both;
+}
+
+#naslov1 {
+	width: 100%;
+	height: 60px;
+	margin-top: 25px;
+	text-align: center;
+	
+}
+
+.blok5 {
+	width:  405px;
+	height: 440px;
+	background-color: #FFF;
+	color: #7d7d7d;
+	border-radius: 9px;
+}
+
+
+.u_bloku1 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+	font-weight: 650;
+}
+
+.u_bloku2 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+	font-weight: 550;
+}
+
+.blok6 {
+	width: 460px;
+	height: 410px;
+	background-color: #FFF;
+	color: #7d7d7d;
+	border-radius: 9px;
+}
+
+.u_bloku3 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+	font-weight: 650;
+}
+
+.u_bloku4 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+	font-weight: 550;
+}
+
+.blok7 {
+	width: 500px;
+	height: 532px;
+	background-color: #FFF;
+	color: #7d7d7d;
+	border-radius: 9px;
+}
+
+.u_bloku5 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+	font-weight: 650;
+}
+
+.u_bloku6 {
+	font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+	font-weight: 550;
+}
+
+.blok5, .blok6, .blok7 {
+	display: inline-block;
+	border: 6px solid;
+	border-color: #678983;
+	padding: 35px;
+	line-height: 1.5;
+	margin: 30px;
+}
+
+#tri_bloka {
+	display: flex;
+	justify-content: flex-start;
+	
+}
+
+#grey {
+	width: 100%;
+	height: 300px;
+	background-color: #678983;
+	color: #FFF;
+	text-align: center;
+}
+
+#grey p {
+	width: 690px;
+	font-size: 24px;
+	font-weight: 650;
+	margin: 0px auto;
+	padding: 40px;
+	opacity: 0.8;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+#grey p {
+	animation: fade-in 3s ease-out;
+}
+
+#grey ul {
+	font-size: 20px;
+}
+
+#blok8 {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 800px;
+	background-color: #FFF;
+}
+
+.podblok3 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 600px;
+	box-sizing: border-box;
+	align-self: flex-start;
+	border-radius: 9px;
+	color: #7d7d7d;
+}
+
+.podblok3 h3 {
+	font-size: 20px;
+	color: #000;
+}
+
+.podblok3 p {
+	font-size: 18px;
+}
+
+.podblok4 img {
+	margin-top: 50px;
+	margin-right: 20px;
+	max-width: 100%;
+	max-height: 90%;
+	align-self: flex-end;
+}
+
+#kontakt {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 600px;
+}
+
+#naslov2 {
+	width: 100%;
+	height: 50px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+.mapa {
+	margin-top: 50px;
+	margin-left: 150px;
+}
+
+
+.forma {
+	margin-right: 230px;
+	margin-top: 150px;
+	height: 400px;
+}
+
+
+label, input, textarea {
+	width: 300px;
+    display: block;
+    margin-bottom: 10px;
+	cursor: pointer;
+ }
+ 
+ footer {
+	 width: 100%;
+	 height: 130px;
+	 background-color: #17242a;
+ }
+ 
+ #sve {
+	 width: 100%;
+	 height: 100px;
+ }
+ 
+ .logo2, .adresa {
+	 display: inline-block;
+	 margin-top: 23px;
+ }
+ 
+ .logo2 {
+	 margin-left: 100px;
+ }
+ 
+ .adresa {
+	 text-align: center;
+	 color: #FFF;
+	 font-weight: 500;
+	 margin-left: 200px;
+ }
+ 
+ .mreze {
+	float: right;
+	margin-right: 130px;
+	margin-top: 55px;
+	
+ }
+ 
+ .mreze i {
+	color: #FFF;
+	font-size: 20px;
+	transition: all 0.3s ease-in-out;
+ }
+ 
+ .mreze i:hover {
+  color: #3b5998; /* Facebook blue */
+}
+
+.mreze a:nth-of-type(2) i:hover {
+  color: #e1306c; /* Instagram pink */
+}
+
+.mreze a:nth-of-type(3) i:hover {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.mreze a {
+	padding: 10px;
+}
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+/*druga stranica*/
+
+#header2{
+	color: #000; 
+	width: 100%;
+	height: 100px;
+    position: fixed;
+	transition: all 0.3s ease-in-out;
+	background-color: #17242a;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.clean {
+	clear: both;
+}
+
+
+
+#levo {
+	width: 50%;
+	height: 800px;
+	background-color: #678983;
+	float: left;
+}
+
+#biografija {
+	position: relative;
+	top: 150px;
+	left: 70px;
+	display: inline;
+}
+
+#levo, #desno {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+ .lista1 {
+	font-size: 19px;
+	box-sizing: border-box;
+	align-self: flex-start;
+	width: 600px;
+	font-weight: 560;
+	
+}
+
+.lista1 ul li {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	color: #FFF;
+	
+}
+
+#biografija h1 {
+	color: #678983;
+	font-size: 28px;
+	text-align: center;
+	width: 300px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	background-color: #fff;
+	opacity: 0.5;
+	padding: 6px;
+	
+}
+
+
+#desno {
+	background-color: #17242a;
+	width: 50%;
+	float: right;
+	height: 800px;
+	
+	
+}
+
+#biografijaFortune {
+	float: right;
+	position: relative;
+	top: 150px;
+	right: 70px;
+}
+
+#biografijaFortune h1 {
+	color: #678983;
+	font-size: 28px;
+	text-align: center;
+	width: 300px;
+	box-sizing: border-box;
+	border-radius: 7px;
+	background-color: #fff;
+	opacity: 0.5;
+	padding: 6px;
+
+}
+
+.lista2 {
+	font-size: 19px;
+	box-sizing: border-box;
+	align-self: flex-start;
+	width: 600px;
+	font-weight: 560;
+}
+
+.lista2 ul li {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	color: #7D7D7D;
+}
+
+.lista2 ul {
+	font-family: 'Monserrat', sans-serif;
+}
+
+/*galerija*/
+
+#galerija {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dva {
+	width: 600px;
+	margin: 180px 50px 20px 100px;
+}
+
+.dva p{
+	font-size: 20px;
+}
+
+#pod_galerija {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.jedan img{
+	max-width: 600px;
+	margin: 130px 0px 20px 100px;
+}
+
+.jedan img {
+  transition: transform 0.3s ease;
+}
+
+.jedan img:hover {
+  transform: scale(1.1);
+}
+
+.tri img{
+	max-width: 600px;
+	margin: 0px 100px 80px 100px;
+}
+
+.tri img {
+  transition: transform 0.3s ease;
+}
+
+.tri img:hover {
+  transform: scale(1.1);
+}
+
+/*Autor*/
+
+.gore {
+	width: 100%;
+	height: 300px;
+	background-color: #FFF;
+}
+
+.gore h1 {
+	padding: 110px 0px 0px 640px;
+	color: #7d7d7d;
+}
+
+.gore p {
+	text-align: center;
+	color: #7d7d7d;
+	font-weight: 590;
+	font-size: 20px;
+}
+
+.dole {
+	width: 100%;
+	height: 300px;
+	background-color: #678983;
+}
+
+.dole img {
+	max-width: 200px;
+	margin-left: 660px;
+	margin-top: 7px;
+    transition: transform 0.3s ease;
+}
+
+.dole img:hover {
+  transform: scale(1.1);
+}
+
+/*linkovi*/
+
+a:hover {
+  color: #FFF;
+}
+
+a {
+    text-decoration: none;
+}
