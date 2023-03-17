@@ -1,13 +1,10 @@
-html{
-  scroll-behavior: smooth;
-}
-
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
 	word-wrap: break-word;
 	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
 }
 
 
