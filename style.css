@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -5,6 +9,7 @@
 	word-wrap: break-word;
 	font-family: 'Montserrat', sans-serif;
 }
+
 
 body {
 	margin: 0px;
@@ -52,11 +57,9 @@ nav {
 
 
 .meni {
-	
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	display: inline;
-	position: relative;
 }
 
 .meni ul li {
@@ -83,8 +86,8 @@ nav {
 .intro {
 	width: 550px;
 	height: 200px;
-	margin-top: 300px;
-	margin-left: 700px;
+	margin-top: 320px;
+	margin-left: 750px;
 	z-index: 2;
 	
 }
@@ -107,7 +110,7 @@ nav {
 	position: absolute;
 	z-index: 1;
 	top: 140px;
-	padding-left: 100px;
+	margin-left: 160px;
 	filter: brightness(90%);
 	
 }
@@ -161,7 +164,7 @@ nav {
 
 .podblok1 {
 	margin-top: 290px;
-	margin-left: 120px;
+	margin-left: 140px;
 	width: 600px;
 	box-sizing: border-box;
 	align-self: flex-start;
@@ -201,7 +204,7 @@ nav {
 }
 
 .podblok2 img{
-	margin-top: 130px;
+	margin-top: 110px;
 	align-self: flex-end;
 	height: 630px;
 }
@@ -343,6 +346,7 @@ nav {
 	width: 100%;
 	height: 800px;
 	background-color: #FFF;
+	
 }
 
 .podblok3 {
@@ -372,40 +376,109 @@ nav {
 	align-self: flex-end;
 }
 
-#kontakt {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	height: 600px;
-}
-
 #naslov2 {
 	width: 100%;
 	height: 50px;
-	margin-top: 40px;
+	margin-top: 80px;
+	text-align: center;
+	
+}
+
+#kontakt {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 85vh;
+	margin-top: 20px;
+}
+
+.mapa {
+	margin-left: 18%;
+}
+
+.mapa p{
+	margin-bottom: 5%;
+	font-weight: bold;
+	font-size: 19px;
 	text-align: center;
 }
 
 
-.mapa {
-	margin-top: 50px;
-	margin-left: 150px;
+.mapa img{
+	height: 500px;
+	border-radius: 9px;
+	border: 3px solid #678983;
+	transition: transform 0.3s ease;
+}
+
+.mapa img:hover {
+  transform: scale(1.1);
 }
 
 
 .forma {
-	margin-right: 230px;
-	margin-top: 150px;
-	height: 400px;
+	margin-top: 4%;
+	margin-right: 12%;
+	
+}
+
+.forma p {
+	margin-bottom: 5%;
+	font-weight: bold;
+	font-size: 19px;
+	text-align: center;
+}
+
+.forma form {
+  background-color: #F2F2F2;
+  border: 3px solid #678983;
+  padding: 20px;
+  border-radius: 9px;
+  padding: 20px;
 }
 
 
 label, input, textarea {
 	width: 300px;
     display: block;
-    margin-bottom: 10px;
-	cursor: pointer;
+	/*cursor: pointer;*/
  }
+ 
+.forma input[type="text"],
+.forma input[type="email"],
+.forma select,
+.forma textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.forma input[type="submit"] {
+  background-color: #678983;
+  color: #FFF;
+  font-weight: bold;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.forma label {
+	
+  margin-bottom: 5px;
+  
+}
+ 
+.forma form label, .forma form input, .forma form textarea {
+  color: #000;
+}
+ 
+ 
+ 
  
  footer {
 	 width: 100%;
@@ -679,6 +752,7 @@ label, input, textarea {
 	max-width: 200px;
 	margin-left: 660px;
 	margin-top: 7px;
+	border-radius: 9px;
     transition: transform 0.3s ease;
 }
 
