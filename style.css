@@ -41,7 +41,7 @@ header {
 
 .logo img {
 	padding-top: 10px;
-	margin-left: 60px;
+	margin-left: 90px;
 }
 
 
@@ -98,7 +98,7 @@ nav {
 	width: 550px;
 	height: 200px;
 	margin-top: 320px;
-	margin-left: 750px;
+	margin-left: 54%;
 	z-index: 2;
 	
 }
@@ -121,9 +121,9 @@ nav {
 	position: absolute;
 	z-index: 1;
 	top: 140px;
-	margin-left: 160px;
+	left: 16%;
 	filter: brightness(90%);
-
+	
 }
 
 .image13 img {
@@ -174,13 +174,12 @@ nav {
 	width: 100%;
 	height: 800px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	background-color: #678983;
 }
 
 .podblok1 {
-	margin-top: 250px;
-	margin-left: 140px;
+	margin: 250px 200px 0px 0px;
 	width: 600px;
 	box-sizing: border-box;
 	align-self: flex-start;
@@ -190,21 +189,7 @@ nav {
 	padding: 30px 28px 30px 30px;
 }
 
-@keyframes zoom-in {
-  0% {
-    transform: scale(0);
-    opacity: 0;
-  }
-  100% {
-    transform: scale(1);
-    opacity: 0.5;
-  }
-}
 
-/* primena animacije na element */
-#tri_bloka {
-  animation: zoom-in 1.5s cubic-bezier(0.23, 1, 0.32, 1);
-}
 
 .podblok1 h2 {
 	font-size: 29px;
@@ -219,8 +204,11 @@ nav {
 	color: #FFF;
 }
 
+.podblok2 {
+	margin: 120px 0px 0px 0px;
+}
+
 .podblok2 img{
-	margin-top: 120px;
 	align-self: flex-end;
 	height: 630px;
 	border-radius: 10px;
@@ -247,6 +235,22 @@ nav {
 	padding-bottom: 35px;
 	scroll-margin-top: 90px; /* nece biti prekriveno header-om */
 	color: #678983;
+}
+
+@keyframes zoom-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+}
+
+/* primena animacije na element */
+#tri_bloka {
+  animation: zoom-in 1.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .blok5 {
@@ -324,7 +328,7 @@ nav {
 
 #tri_bloka {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	padding-top: 4px;
 }
 
@@ -365,19 +369,19 @@ nav {
 
 #blok8 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	width: 100%;
 	height: 800px;
 	background-color: #FFF;
-	
+}
+
+.podblok3{
+	margin: 70px 130px 0px 0px;
 }
 
 .podblok3 {
-	margin-top: 50px;
-	margin-left: 120px;
 	width: 600px;
 	box-sizing: border-box;
-	align-self: flex-start;
 	border-radius: 9px;
 	color: #7d7d7d;
 }
@@ -391,12 +395,14 @@ nav {
 	font-size: 18px;
 }
 
+.podblok4 {
+	margin: 70px 0px 0px 60px;
+}
+
 .podblok4 img {
-	margin-top: 50px;
-	margin-right: 20px;
+	margin-top: 30px;
 	max-width: 100%;
 	max-height: 90%;
-	align-self: flex-end;
 	border-radius: 10px;
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.4);
 }
@@ -422,7 +428,7 @@ nav {
 }
 
 .mapa {
-	margin-left: 18%;
+	margin-left: 22%;
 }
 
 .mapa p{
@@ -448,6 +454,7 @@ nav {
 
 .forma {
 	margin-right: 12%;
+	width: 20%;
 }
 
 .forma p {
@@ -487,6 +494,7 @@ label, input, textarea {
 .forma input[type="submit"] {
   background-color: #678983;
   color: #FFF;
+  width: 258px;
   font-weight: bold;
   border: none;
   padding: 5px;
@@ -511,38 +519,31 @@ label, input, textarea {
 	 width: 100%;
 	 height: 130px;
 	 background-color: #17242a;
-	 
+	
  }
  
  #sve {
 	 width: 100%;
-	 height: 100px;
+	 height: 130px;
+	 display: flex;
+	 justify-content: space-evenly;
+	 align-items: center;
  }
  
- .logo2, .adresa {
+ .logo2, .adresa, .mreze {
 	 display: inline-block;
+	 
  }
- 
- .logo2 img {
-	margin-left: 60px;
-	padding-bottom: 10px;
- }
- 
+
  
  .adresa {
 	 text-align: center;
 	 color: #FFF;
 	 font-weight: 500;
-	 margin-left: 230px;
-	 padding-top: 17px;
+	 
  }
  
- .mreze {
-	float: right;
-	margin-right: 130px;
-	margin-top: 55px;
-	
- }
+ 
  
  .mreze i {
 	color: #FFF;
@@ -600,21 +601,22 @@ label, input, textarea {
 
 #levo {
 	width: 50%;
-	height: 800px;
+	height: 750px;
 	background-color: #678983;
 	float: left;
 }
 
 #biografija {
+	height: 500px;
 	position: relative;
-	top: 150px;
-	left: 70px;
-	display: inline;
+	top: 180px;
 }
 
 #levo, #desno {
-  opacity: 0;
-  animation: fadeIn 1s ease-in forwards;
+	display: flex;
+	justify-content: center;
+	opacity: 0;
+	animation: fadeIn 1s ease-in forwards;
 }
 
 @keyframes fadeIn {
@@ -660,16 +662,16 @@ label, input, textarea {
 	background-color: #17242a;
 	width: 50%;
 	float: right;
-	height: 800px;
-	
-	
+	height: 750px;
 }
+
+
 
 #biografijaFortune {
 	float: right;
 	position: relative;
-	top: 150px;
-	right: 70px;
+	top: 180px;
+	height: 500px;
 }
 
 #biografijaFortune h1 {
@@ -703,12 +705,15 @@ label, input, textarea {
 	font-family: 'Monserrat', sans-serif;
 }
 
-#sve2 {
+#Footer {
 	width: 100%;
 	height: 130px;
 	position: absolute;
-	top: 700px;
+	top: 750px;
 	background-color: #17242a;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 
@@ -717,13 +722,14 @@ label, input, textarea {
 
 #galerija {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   background-color: #FFF;
+  height: 850px;
 }
 
 .dva {
 	width: 600px;
-	margin: 180px 50px 20px 100px;
+	margin: 225px 50px 20px 100px;
 	border: 3px solid #678983;
 	border-radius: 9px;
 	padding: 13px;
@@ -743,7 +749,8 @@ label, input, textarea {
 
 .jedan img{
 	max-width: 600px;
-	margin: 130px 0px 30px 100px;
+	margin: 170px 0px 30px 100px;
+
 }
 
 .jedan img {
@@ -756,7 +763,7 @@ label, input, textarea {
 
 .tri img{
 	max-width: 600px;
-	margin: 0px 100px 80px 100px;
+	margin: 0px 100px 100px 100px;
 	border-radius: 9px;
 }
 
@@ -772,32 +779,36 @@ label, input, textarea {
 
 .gore {
 	width: 100%;
-	height: 300px;
+	height: 450px;
 	background-color: #FFF;
+	
 }
 
 .gore h1 {
-	padding: 110px 0px 0px 640px;
+	font-size: 45px;
+	padding-top: 160px;
 	color: #7d7d7d;
+	text-align: center;
 }
 
 .gore p {
 	text-align: center;
 	color: #7d7d7d;
 	font-weight: 590;
-	font-size: 20px;
+	font-size: 28px;
 }
 
 .dole {
 	width: 100%;
-	height: 300px;
+	height: 390px;
 	background-color: #678983;
+	display: flex;
+	justify-content: center;
 }
 
 .dole img {
-	max-width: 200px;
-	margin-left: 660px;
-	margin-top: 7px;
+	margin-top: 24px;
+	max-height: 88%;
 	border-radius: 9px;
     transition: transform 0.3s ease;
 }
