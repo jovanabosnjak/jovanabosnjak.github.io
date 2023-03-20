@@ -9,9 +9,10 @@
 
 
 body {
+	
 	margin: 0px;
 	padding: 0px;
-	/*overflow-x: hidden;*/
+	
 }
 
 header {
@@ -35,11 +36,12 @@ header {
 
 .logo {
 	display: inline;
-	margin: 20px 0px 20px 60px;
+
 }
 
 .logo img {
-	padding-top: 17px;
+	padding-top: 10px;
+	margin-left: 60px;
 }
 
 
@@ -65,14 +67,17 @@ nav {
 	
 }
 
+
 .meni ul li a {
 	padding: 7px;
 	color: #FFF;
 	letter-spacing: 2.4px;
 	text-decoration: none;
 	font-weight: bold;
-	
 }
+
+
+
 
 
 .clean {
@@ -110,6 +115,10 @@ nav {
 	margin-left: 160px;
 	filter: brightness(90%);
 	
+}
+
+.image13 img {
+	border-radius: 5px;
 }
 
 .image13 {
@@ -160,7 +169,7 @@ nav {
 }
 
 .podblok1 {
-	margin-top: 290px;
+	margin-top: 250px;
 	margin-left: 140px;
 	width: 600px;
 	box-sizing: border-box;
@@ -201,9 +210,10 @@ nav {
 }
 
 .podblok2 img{
-	margin-top: 110px;
+	margin-top: 120px;
 	align-self: flex-end;
 	height: 630px;
+	border-radius: 10px;
 }
 
 .podblok2 img {
@@ -221,14 +231,16 @@ nav {
 #naslov1 {
 	width: 100%;
 	height: 60px;
-	margin-top: 25px;
 	text-align: center;
-	
+	padding-top: 50px;
+	padding-bottom: 35px;
+	scroll-margin-top: 90px; /* nece biti prekriveno header-om */
+	color: #678983;
 }
 
 .blok5 {
 	width:  405px;
-	height: 440px;
+	height: 450px;
 	background-color: #FFF;
 	color: #7d7d7d;
 	border-radius: 9px;
@@ -249,7 +261,7 @@ nav {
 
 .blok6 {
 	width: 460px;
-	height: 410px;
+	height: 450px;
 	background-color: #FFF;
 	color: #7d7d7d;
 	border-radius: 9px;
@@ -269,7 +281,7 @@ nav {
 
 .blok7 {
 	width: 500px;
-	height: 532px;
+	height: 450px;
 	background-color: #FFF;
 	color: #7d7d7d;
 	border-radius: 9px;
@@ -299,7 +311,7 @@ nav {
 #tri_bloka {
 	display: flex;
 	justify-content: flex-start;
-	
+	padding-top: 4px;
 }
 
 #grey {
@@ -371,14 +383,16 @@ nav {
 	max-width: 100%;
 	max-height: 90%;
 	align-self: flex-end;
+	border-radius: 10px;
 }
 
 #naslov2 {
 	width: 100%;
 	height: 50px;
-	margin-top: 80px;
+	margin-top: 50px;
 	text-align: center;
-	
+	scroll-margin-top: 120px;
+	color: #678983;
 }
 
 #kontakt {
@@ -388,7 +402,8 @@ nav {
 	justify-content: space-between;
 	width: 100%;
 	height: 85vh;
-	margin-top: 20px;
+	margin-top: 10px;
+	background-color: #678983;
 }
 
 .mapa {
@@ -400,6 +415,7 @@ nav {
 	font-weight: bold;
 	font-size: 19px;
 	text-align: center;
+	color: #FFF;
 }
 
 
@@ -416,9 +432,7 @@ nav {
 
 
 .forma {
-	margin-top: 4%;
 	margin-right: 12%;
-	
 }
 
 .forma p {
@@ -426,6 +440,7 @@ nav {
 	font-weight: bold;
 	font-size: 19px;
 	text-align: center;
+	color: #FFF;
 }
 
 .forma form {
@@ -481,6 +496,7 @@ label, input, textarea {
 	 width: 100%;
 	 height: 130px;
 	 background-color: #17242a;
+	 
  }
  
  #sve {
@@ -490,18 +506,20 @@ label, input, textarea {
  
  .logo2, .adresa {
 	 display: inline-block;
-	 margin-top: 23px;
  }
  
- .logo2 {
-	 margin-left: 100px;
+ .logo2 img {
+	margin-left: 60px;
+	padding-bottom: 10px;
  }
+ 
  
  .adresa {
 	 text-align: center;
 	 color: #FFF;
 	 font-weight: 500;
-	 margin-left: 200px;
+	 margin-left: 230px;
+	 padding-top: 17px;
  }
  
  .mreze {
@@ -594,13 +612,12 @@ label, input, textarea {
 }
 
 
- .lista1 {
+.lista1 {
 	font-size: 19px;
 	box-sizing: border-box;
 	align-self: flex-start;
 	width: 600px;
 	font-weight: 560;
-	
 }
 
 .lista1 ul li {
@@ -671,20 +688,36 @@ label, input, textarea {
 	font-family: 'Monserrat', sans-serif;
 }
 
+#sve2 {
+	width: 100%;
+	height: 130px;
+	position: absolute;
+	top: 700px;
+	background-color: #17242a;
+}
+
+
+
 /*galerija*/
 
 #galerija {
   display: flex;
   justify-content: space-between;
+  background-color: #FFF;
 }
 
 .dva {
 	width: 600px;
 	margin: 180px 50px 20px 100px;
+	border: 3px solid #678983;
+	border-radius: 9px;
+	padding: 13px;
+	background-color: #678983;
+	color: #FFF;
 }
 
 .dva p{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 #pod_galerija {
@@ -695,7 +728,7 @@ label, input, textarea {
 
 .jedan img{
 	max-width: 600px;
-	margin: 130px 0px 20px 100px;
+	margin: 130px 0px 30px 100px;
 }
 
 .jedan img {
@@ -709,6 +742,7 @@ label, input, textarea {
 .tri img{
 	max-width: 600px;
 	margin: 0px 100px 80px 100px;
+	border-radius: 9px;
 }
 
 .tri img {
