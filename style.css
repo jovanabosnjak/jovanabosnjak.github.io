@@ -76,17 +76,17 @@ nav {
 	font-weight: bold;
 }
 
-.active-link {
-	border-bottom: 1px solid transparent;  /* Inicijalno stanje sa prozirnom ivicom */
-	transition: border-bottom 0.3s ease-in-out;
-}
 
+.active-link:hover {
+	border-bottom: 3px solid #678983;
+	color: #678983;
+}	
 
-
-.active-link:hover, .active-link:active {
-    border-bottom: 3px solid #678983 !important;
+.active-link:active{
+    border-bottom: 3px solid #678983;
 	color: #678983;
 }
+
 
 
 .clean {
@@ -612,6 +612,20 @@ label, input, textarea {
 	top: 180px;
 }
 
+#biografija {
+  animation-name: biografija;
+  animation-duration: 2s;
+}
+
+@keyframes biografija {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
 #levo, #desno {
 	display: flex;
 	justify-content: center;
@@ -672,6 +686,20 @@ label, input, textarea {
 	position: relative;
 	top: 180px;
 	height: 500px;
+}
+
+#biografijaFortune {
+  animation-name: biografijaFortune;
+  animation-duration: 2s;
+}
+
+@keyframes biografijaFortune {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
 
 #biografijaFortune h1 {
@@ -736,6 +764,7 @@ label, input, textarea {
 	background-color: #678983;
 	color: #FFF;
 }
+
 
 .dva p{
 	font-size: 18px;
