@@ -9,10 +9,8 @@
 
 
 body {
-	
 	margin: 0px;
 	padding: 0px;
-	
 }
 
 header {
@@ -32,8 +30,6 @@ header {
     height: 600px;
 }
 
-
-
 .logo {
 	display: inline;
 
@@ -44,16 +40,11 @@ header {
 	margin-left: 90px;
 }
 
-
 nav {
 	float: right;
 	margin: 41.2px 120px 20px 0px;
 	position: relative;
 }
-
-
-
-
 
 .meni {
 	text-decoration: none;
@@ -67,7 +58,6 @@ nav {
 	
 }
 
-
 .meni ul li a {
 	padding: 13px 7px;
 	color: #FFF;
@@ -75,7 +65,6 @@ nav {
 	text-decoration: none;
 	font-weight: bold;
 }
-
 
 .active-link:hover {
 	border-bottom: 3px solid #678983;
@@ -87,12 +76,9 @@ nav {
 	color: #678983;
 }
 
-
-
 .clean {
 	clear: both;
 }
-
 
 .intro {
 	width: 550px;
@@ -100,7 +86,6 @@ nav {
 	margin-top: 320px;
 	margin-left: 54%;
 	z-index: 2;
-	
 }
 
 @keyframes fade-in {
@@ -112,7 +97,6 @@ nav {
   }
 }
 
-
 .intro {
   animation: fade-in 2.5s ease-out;
 }
@@ -123,12 +107,10 @@ nav {
 	top: 140px;
 	left: 16%;
 	filter: brightness(90%);
-	
 }
 
 .image13 img {
 	border-radius: 5px;
-	
 }
 
 .image13 {
@@ -156,7 +138,6 @@ nav {
 	text-shadow: 5px 4px 5px grey;
 }
 
-
 .link {
 	display: block;
 	text-decoration: none;
@@ -168,7 +149,6 @@ nav {
 	float: right;
 	margin-right: 20px;
 }
-
 
 #blok1 {
 	width: 100%;
@@ -189,13 +169,10 @@ nav {
 	padding: 30px 28px 30px 30px;
 }
 
-
-
 .podblok1 h2 {
 	font-size: 29px;
 	line-height: 1;
 	color: #7d7d7d;
-	
 }
 
 .podblok1 h3 {
@@ -261,7 +238,6 @@ nav {
 	border-radius: 9px;
 	box-shadow: 0px 0px 18px 6px rgba(0,0,0,0.4);
 }
-
 
 .u_bloku1 {
 	font-family: 'Montserrat', sans-serif;
@@ -358,7 +334,6 @@ nav {
   }
 }
 
-
 #grey p {
 	animation: fade-in 3s ease-out;
 }
@@ -439,7 +414,6 @@ nav {
 	color: #FFF;
 }
 
-
 .mapa img{
 	height: 500px;
 	border-radius: 9px;
@@ -473,12 +447,11 @@ nav {
   padding: 20px;
 }
 
-
 label, input, textarea {
 	width: 300px;
     display: block;
 	/*cursor: pointer;*/
- }
+}
  
 .forma input[type="text"],
 .forma input[type="email"],
@@ -503,49 +476,40 @@ label, input, textarea {
 }
 
 .forma label {
-	
   margin-bottom: 5px;
-  
 }
  
 .forma form label, .forma form input, .forma form textarea {
   color: #000;
 }
  
- 
- 
- 
  footer {
 	 width: 100%;
 	 height: 130px;
 	 background-color: #17242a;
-	
- }
+}
  
- #sve {
+#sve {
 	 width: 100%;
 	 height: 130px;
 	 display: flex;
 	 justify-content: space-evenly;
 	 align-items: center;
- }
+}
  
- .logo2, .adresa, .mreze {
+.logo2, .adresa, .mreze {
 	 display: inline-block;
 	 
- }
+}
 
- 
- .adresa {
+.adresa {
 	 text-align: center;
 	 color: #FFF;
 	 font-weight: 500;
 	 
- }
+}
  
- 
- 
- .mreze i {
+.mreze i {
 	color: #FFF;
 	font-size: 20px;
 	transition: all 0.3s ease-in-out;
@@ -566,18 +530,6 @@ label, input, textarea {
 .mreze a {
 	padding: 10px;
 }
- 
- 
-
-
-
-
-
-
-
-
-
-
 
 /*druga stranica*/
 
@@ -596,8 +548,6 @@ label, input, textarea {
 .clean {
 	clear: both;
 }
-
-
 
 #levo {
 	width: 50%;
@@ -642,7 +592,6 @@ label, input, textarea {
   }
 }
 
-
 .lista1 {
 	font-size: 19px;
 	box-sizing: border-box;
@@ -668,7 +617,6 @@ label, input, textarea {
 	background-color: #fff;
 	opacity: 0.5;
 	padding: 6px;
-	
 }
 
 
@@ -678,8 +626,6 @@ label, input, textarea {
 	float: right;
 	height: 750px;
 }
-
-
 
 #biografijaFortune {
 	float: right;
@@ -712,7 +658,6 @@ label, input, textarea {
 	background-color: #fff;
 	opacity: 0.5;
 	padding: 6px;
-
 }
 
 .lista2 {
@@ -744,27 +689,24 @@ label, input, textarea {
 	align-items: center;
 }
 
-
-
 /*galerija*/
 
 #galerija {
-  display: flex;
-  justify-content: center;
-  background-color: #FFF;
-  height: 850px;
+	display: flex;
+	justify-content: center;
+	background-color: #FFF;
+	height: 850px;
 }
 
 .dva {
 	width: 600px;
-	margin: 225px 50px 20px 100px;
+	margin: 190px 50px 20px 100px;
 	border: 3px solid #678983;
 	border-radius: 9px;
 	padding: 13px;
 	background-color: #678983;
 	color: #FFF;
 }
-
 
 .dva p{
 	font-size: 18px;
@@ -792,7 +734,7 @@ label, input, textarea {
 
 .tri img{
 	max-width: 600px;
-	margin: 0px 100px 100px 100px;
+	margin: 0px 100px 85px 100px;
 	border-radius: 9px;
 }
 
@@ -810,7 +752,6 @@ label, input, textarea {
 	width: 100%;
 	height: 450px;
 	background-color: #FFF;
-	
 }
 
 .gore h1 {
@@ -847,10 +788,6 @@ label, input, textarea {
 }
 
 /*linkovi*/
-
-a:hover {
-  color: #FFF;
-}
 
 a {
     text-decoration: none;
