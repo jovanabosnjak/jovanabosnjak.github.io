@@ -6,13 +6,10 @@
 	font-family: 'Montserrat', sans-serif;
 	scroll-behavior: smooth;
 }
-
-
 body {
 	margin: 0px;
 	padding: 0px;
 }
-
 header {
 	color: #000; 
 	width: 100%;
@@ -23,7 +20,7 @@ header {
 	background-color: #17242a;
 }
 
-#header-wrapper {
+#okvir {
 	display: flex;
 	background-color: #17242a;
     width: 100%;
@@ -193,7 +190,7 @@ nav {
 }
 
 .podblok2 img {
-  transition: transform 0.5s ease-in-out; /* tranzicija rotiranja slike u trajanju od 0.5 sekundi, sa laganom ubrzanim ulaskom i izlaskom */
+  transition: transform 0.5s ease-in-out; 
 }
 
 .podblok2 img:hover {
@@ -308,7 +305,7 @@ nav {
 	padding-top: 4px;
 }
 
-#grey {
+#info {
 	width: 100%;
 	height: 300px;
 	background-color: #678983;
@@ -316,7 +313,7 @@ nav {
 	text-align: center;
 }
 
-#grey p {
+#info p {
 	width: 690px;
 	font-size: 24px;
 	font-weight: 650;
@@ -334,11 +331,11 @@ nav {
   }
 }
 
-#grey p {
+#info p {
 	animation: fade-in 3s ease-out;
 }
 
-#grey ul {
+#info ul {
 	font-size: 20px;
 }
 
